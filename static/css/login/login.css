@@ -1,0 +1,12 @@
+body{
+  background-color: #e5e9ec !important;
+}
+.login-page{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.login-page > .row{
+  width: 100%;
+  margin: 0px !important;
+}

@@ -1,0 +1,237 @@
+.like {
+    background:url(/images/heart-icon.png)
+}
+.comment {
+    background:url(/images/comment-icon.png)
+}
+.party-card {
+    box-shadow: 0 0.2rem 0.2rem rgba(0,0,0,.2);
+    display: block;
+}
+.card-date-div {
+    text-align: center;
+    display: table-cell;
+}
+.card-date-div .centered {
+    width: 45px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-date-div .centered .horizon {
+    width: 45px;
+    position: absolute;
+    left: 0;
+    top: 35px;
+}
+.card-date-div .centered .horizon .item b {
+    color: gray;
+}
+    
+
+.card-img-wrapper {
+    width:100px;
+    height:120px;
+    display: table-cell;
+    position: relative;
+}
+.card-img {
+    padding-top: 100%;
+    overflow: hidden;
+}
+.card-img .centered {
+    posiition: absolute;
+ 
+}
+.card-img .centered img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 120px;
+}
+.card-info-div {
+    padding: 3%;
+    min-width: 230px;
+    width: auto;
+    position: relative;
+    display: table-cell;
+}
+.card-info-div .card-name-div {
+    position: absolute;
+    top: 7%;
+}
+.card-info-div .card-name-div .card-name{
+    font-size: 12px;
+    font-weight: bold;
+}
+.card-info-div .card-time-div {
+    position: absolute;
+    top:35%;
+}
+.card-time{
+    font-size: 11px;
+    color: gray;
+    font-weight: bold;
+}
+.card-info-div .card-place-div {
+    position: absolute;
+    top:22%;
+}
+.card-info-div .card-place-div .img-location {
+    width: 13px;
+    height: 13px;
+}
+.card-info-div .card-time-div .img-clock {
+    width: 13px;
+    height: 13px;
+}
+.coupon-div {
+    position: absolute;
+    top:65%;
+}
+.card-info-div .card-place-div .card-place{
+    font-size: 11px;
+    color: grey;
+    font-weight: bold;
+}
+.card-info-div .card-like-and-comment-div {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: table;
+    margin-left: 12px;
+}
+.card-info-div .card-count-div {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 75%;
+    display: table;
+}
+.button-like { 
+  font-size:8px;
+  width:95px;
+  border: 2px solid #4169E1;
+  background-color: #4169E1;
+  text-decoration: none;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 0.2rem;
+  color: #ffffff;
+  transition: all ease 0.4s;
+  display: table-cell;
+}
+.like-count-div {
+  display: table-cell;
+}
+.like-count-div .like-img {
+  height: 15px;
+}
+.view-count-div {
+  display: table-cell;
+}
+.view-count-div .view-img{
+  margin-left: 15px;
+  width: 15px;
+  height: 15px;
+}
+.comment-count-div {
+  display: table-cell;
+}
+.comment-count-div .comment-img{
+  margin-top: 1px;
+  margin-left: 15px;
+  width: 13px;
+  height: 12px;
+}
+.like-count-div tt,
+.view-count-div tt,
+.comment-count-div tt{
+  font-size:7px;
+  color:grey;
+  font-weight:bold;
+}
+
+
+.box-coupon-blue { 
+  font-size:10px;
+  width:60px;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  color: #8a8a8a;
+  transition: all ease 0.4s;
+  display: table-cell;
+}
+.box-coupon-yellow {
+  font-size:10px;
+  width:60px;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  color: #8a8a8a;
+  transition: all ease 0.4s;
+  display: table-cell;
+}
+.box-coupon-blue b {
+  color: #556bcc;
+}
+.box-coupon-yellow b {
+  color: #FF8C00;
+}
+.button-like .fa{
+  transition: all ease 0.4s;
+}
+.button-like .fa{
+  font-style: normal;
+}
+.button-like:focus {
+  background-color: #4169E1;
+}
+
+.button-like:focus{
+  color: #fffff;
+}
+
+.button-like:hover {
+  border-color: #4169E1;
+  background-color: #4169E1;
+}
+
+.button-like:hover .fa{
+  color: #ffffff;
+}
+
+.liked {
+  background-color: #0129A1;
+  border-color: #0129A1;
+  color: #fefefe,
+}
+
+.liked .fa{
+  color: #fefefe,
+}
+
+.liked:focus {
+  background-color: #0129A1;
+}
+
+.liked:focus .fa{
+  color: #fefefe,
+}
+
+.liked:hover {
+  background-color: #0129A1;
+  border-color: #0129A1;
+  color: #fefefe,
+}
+
+.liked:hover .fa{
+  color: #fefefe,
+}
+
+
