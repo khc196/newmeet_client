@@ -15,7 +15,6 @@ app.use(session({
   saveUninitialized: false,
   cookie: { maxAge: 3600000 }
 }))
-app.use('/_nuxt', express.static(path.join(__dirname, '.nuxt', 'dist')))
 
 //const apiHost = "http://localhost:8000/api"
 const apiHost = "https://newmeet.herokuapp.com/api"
