@@ -9,6 +9,7 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  buildDir: 'nuxt-dist',
   head: {
     title: "NewMeet",
     meta: [
