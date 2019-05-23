@@ -38,8 +38,7 @@
     "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
-    "serverless-domain-manager": "^3.2.2"
+    "nodemon": "^1.18.9"
   },
   "config": {
     "nuxt": {
