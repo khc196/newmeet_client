@@ -9,10 +9,9 @@
     "npm": "6.4.1"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server.js --watch server",
+    "dev": "nodemon server.js --watch server",
     "build": "nuxt build",
-    "generate": "nuxt generate",
-    "start": "node server.js"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@kevindesousa/vue-k-tabs": "^1.0.0",
