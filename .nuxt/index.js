@@ -11,9 +11,9 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_bootstrapvue_4b43f680 from 'nuxt_plugin_bootstrapvue_4b43f680' // Source: .\\bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_nuxtdevicedetectplugin91f42736_1c81611c from 'nuxt_plugin_nuxtdevicedetectplugin91f42736_1c81611c' // Source: .\\nuxt-device-detect.plugin.91f42736.js (mode: 'all')
-import nuxt_plugin_axios_06394791 from 'nuxt_plugin_axios_06394791' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_7945a2e7 from 'nuxt_plugin_bootstrapvue_7945a2e7' // Source: .\\bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_nuxtdevicedetectplugin16959244_e90865ee from 'nuxt_plugin_nuxtdevicedetectplugin16959244_e90865ee' // Source: .\\nuxt-device-detect.plugin.16959244.js (mode: 'all')
+import nuxt_plugin_axios_1b38fcb8 from 'nuxt_plugin_axios_1b38fcb8' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_axios_5659d192 from 'nuxt_plugin_axios_5659d192' // Source: ..\\plugins\\axios.js (mode: 'all')
 
 // Component: <NoSsr>
@@ -154,16 +154,16 @@ async function createApp(ssrContext) {
 
   // Plugin execution
 
-  if (typeof nuxt_plugin_bootstrapvue_4b43f680 === 'function') {
-    await nuxt_plugin_bootstrapvue_4b43f680(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_7945a2e7 === 'function') {
+    await nuxt_plugin_bootstrapvue_7945a2e7(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxtdevicedetectplugin91f42736_1c81611c === 'function') {
-    await nuxt_plugin_nuxtdevicedetectplugin91f42736_1c81611c(app.context, inject)
+  if (typeof nuxt_plugin_nuxtdevicedetectplugin16959244_e90865ee === 'function') {
+    await nuxt_plugin_nuxtdevicedetectplugin16959244_e90865ee(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_06394791 === 'function') {
-    await nuxt_plugin_axios_06394791(app.context, inject)
+  if (typeof nuxt_plugin_axios_1b38fcb8 === 'function') {
+    await nuxt_plugin_axios_1b38fcb8(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_5659d192 === 'function') {

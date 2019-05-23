@@ -2,11 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _6e165c4c = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages_login" */))
-const _2f534dcb = () => interopDefault(import('..\\pages\\party\\index.vue' /* webpackChunkName: "pages_party_index" */))
-const _bf226f24 = () => interopDefault(import('..\\pages\\promotion\\index.vue' /* webpackChunkName: "pages_promotion_index" */))
-const _2cf4e62f = () => interopDefault(import('..\\pages\\party\\_id\\index.vue' /* webpackChunkName: "pages_party__id_index" */))
-const _0165a27a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _2389667d = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages_login" */))
+const _4ee06870 = () => interopDefault(import('..\\pages\\party\\index.vue' /* webpackChunkName: "pages_party_index" */))
+const _3b11ffeb = () => interopDefault(import('..\\pages\\promotion\\index.vue' /* webpackChunkName: "pages_promotion_index" */))
+const _328ec35c = () => interopDefault(import('..\\pages\\party\\_id\\index.vue' /* webpackChunkName: "pages_party__id_index" */))
+const _59e1c366 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 Vue.use(Router)
 
@@ -84,23 +84,23 @@ export function createRouter() {
 
     routes: [{
       path: "/login",
-      component: _6e165c4c,
+      component: _2389667d,
       name: "login"
     }, {
       path: "/party",
-      component: _2f534dcb,
+      component: _4ee06870,
       name: "party"
     }, {
       path: "/promotion",
-      component: _bf226f24,
+      component: _3b11ffeb,
       name: "promotion"
     }, {
       path: "/party/:id",
-      component: _2cf4e62f,
+      component: _328ec35c,
       name: "party-id"
     }, {
       path: "/",
-      component: _0165a27a,
+      component: _59e1c366,
       name: "index"
     }],
 

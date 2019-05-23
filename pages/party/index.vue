@@ -258,6 +258,12 @@ export default {
 }
 </script>
 <style>
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Sunflower:500');
+* { 
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 15px;
+  -webkit-text-stroke: 1px rgba(0,0,0,0.1)
+}
 .button-div {
   width: 100%;
 }

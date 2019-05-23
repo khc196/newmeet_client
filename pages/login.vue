@@ -63,7 +63,7 @@ export default {
   },
   data(){
     return {
-      appKey: process.env.APPKEY,
+      appKey: '45921a9a4ebf5aefbb73b2bec262dfe1',
       login_fail : false
     }
   },
@@ -93,7 +93,7 @@ export default {
       .then((authUser) => {
         this.$store.commit('SET_AUTH_TOKEN', authUser.auth)
         this.$store.commit('SET_USER_INFO', authUser.userInfo)
-        window.location.href = document.referrer;
+        history.back();
       })
     },
     loginWithKakao() {
@@ -129,7 +129,7 @@ export default {
           .then((authUser) => {
             store.commit('SET_AUTH_TOKEN', authUser.auth)
             store.commit('SET_USER_INFO', authUser.userInfo)
-            window.location.href = document.referrer;
+            history.back();
           })
         },
         fail: function(err) {

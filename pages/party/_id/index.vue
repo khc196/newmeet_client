@@ -277,7 +277,7 @@ export default {
         content: {
           title: this.party.name + ' ' + this.party.type_name,
           description: '#뉴밋 #NewMeet #'+ this.party.type_name + ' #'+ this.party.place_name,
-          imageUrl: process.env.apihost+this.party.party_images[0].image,
+          imageUrl: this.party.party_images[0].image,
           link: {
             mobileWebUrl: 'https://developers.kakao.com',
             webUrl: 'https://developers.kakao.com'
@@ -292,8 +292,8 @@ export default {
           {
             title: '웹으로 보기',
             link: {
-              mobileWebUrl: 'https://developers.kakao.com',
-              webUrl: 'https://developers.kakao.com'
+             mobileWebUrl: document.location.href,
+             webUrl: document.location.href
             }
           },
         ]
@@ -359,7 +359,7 @@ export default {
   },
   data() {
     return {
-      appKey: process.env.APPKEY,
+      appKey: '45921a9a4ebf5aefbb73b2bec262dfe1',
       level: 3,
       mapTypeId: Map.MapTypeId.NORMAL,
       libraries: [],

@@ -33,7 +33,7 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
     ]
   },
-
+  buildDir: '../newmeet/.nuxt/',
   /*
   ** Customize the progress-bar color
   */
