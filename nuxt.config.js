@@ -9,7 +9,6 @@ module.exports = {
   /*
   ** Headers of the page
   */
-  buildDir: 'nuxt-dist',
   head: {
     title: "NewMeet",
     meta: [
@@ -74,7 +73,6 @@ module.exports = {
     extend(config, ctx) {
     },
     vendor: ['mixitup'],
-    publicPath: `/${require('./secrets.json').NODE_ENV}/_nuxt/`
   },
   axios: {
     baseURL: "https://newmeet.herokuapp.com/api",

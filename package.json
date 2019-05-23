@@ -8,7 +8,7 @@
     "dev": "cross-env NODE_ENV=development nodemon server.js --watch server",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@kevindesousa/vue-k-tabs": "^1.0.0",
