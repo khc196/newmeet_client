@@ -127,10 +127,10 @@ if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   #Copy build back to root
   eval cp build/* .
 
-  echo "Running $NPM_CMD run dev"
-  eval $NPM_CMD run dev
-  # eval npm run build
-  exitWithMessageOnError "dev failed"
+#   echo "Running $NPM_CMD run dev"
+#   eval $NPM_CMD run dev
+#   # eval npm run build
+#   exitWithMessageOnError "dev failed"
 
   cd - > /dev/null
 fi
