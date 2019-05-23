@@ -9,7 +9,7 @@
     "npm": "6.4.1"
   },
   "scripts": {
-    "dev": "nodem server.js",
+    "dev": "node server.js",
     "build": "nuxt build",
     "generate": "nuxt generate"
   },
