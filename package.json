@@ -4,6 +4,10 @@
   "description": "My extraordinary Nuxt.js project",
   "author": "khc196",
   "private": true,
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server.js --watch server",
     "build": "nuxt build",
