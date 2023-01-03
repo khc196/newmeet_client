@@ -29,7 +29,7 @@
     "load-script-once": "^2.0.1",
     "mixitup": "^3.3.1",
     "moment": "^2.24.0",
-    "nuxt": "^2.4.0",
+    "nuxt": "^2.15.8",
     "nuxt-device-detect": "^1.1.4",
     "package-lock.json": "^1.0.0",
     "vue-tabs-component": "^1.5.0",
